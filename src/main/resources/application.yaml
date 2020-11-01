@@ -1,0 +1,18 @@
+## App config
+server:
+  port: 9006
+spring:
+  application:
+    name: healthservice
+  data:
+    mongodb:
+      uri: mongodb://localhost/mobileservice
+      database: mobileservice
+
+## Redis
+redis:
+  uri: redis://127.0.0.1:6379
+
+## RabbitMQ
+rabbitmq:
+  uri: amqp://127.0.0.1:5672/%2F
